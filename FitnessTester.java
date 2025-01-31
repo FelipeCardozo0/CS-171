@@ -1,4 +1,3 @@
-package HW.A1;
 
 /*
 THIS CODE WAS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING
@@ -14,14 +13,19 @@ public static void main(String[] args) {
 
     tracker.addSteps(5000);//whats d diff FitnessTracker.addSteps(5000);
     System.out.println(tracker.getTotalDistance());
+    System.out.println(tracker.getTotalSteps());
+    System.out.println(tracker.getCaloriesBurned());
     tracker.addSteps(3000);
     System.out.println(tracker.getTotalDistance());
+    System.out.println(tracker.getTotalSteps());
+    System.out.println(tracker.getCaloriesBurned());
+
     tracker.resetTracker();
     System.out.println(tracker.getTotalDistance());
-    System.out.println(tracker.getProgress(1));
     System.out.println(tracker.getCaloriesBurned());
     System.out.println(tracker.getTotalSteps());
 
+    System.out.println(tracker.getProgress(1));
 
 }
 

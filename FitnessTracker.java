@@ -1,4 +1,4 @@
-
+package HW.A1;
 
 /*
 THIS CODE WAS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING
@@ -29,11 +29,11 @@ public class FitnessTracker {
         // totalDistance, and calculates the calories burned (assume 1 mile burns 100 calories) and updates caloriesBurned
         totalSteps+=steps;
         totalDistance+= (double) steps /2000; //cant recalculate total distance based on  steps every time
-        caloriesBurned+= (double) steps *20;
+        caloriesBurned+= (double) steps /20;
 
     }
 
-    public double getTotalSteps(){
+    public int getTotalSteps(){
         return totalSteps;
 
     }

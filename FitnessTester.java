@@ -1,3 +1,4 @@
+package HW.A1;
 
 /*
 THIS CODE WAS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING
@@ -26,7 +27,11 @@ public static void main(String[] args) {
     System.out.println(tracker.getTotalSteps());
 
     System.out.println(tracker.getProgress(1));
+    System.out.println(tracker.getProgress(10));
 
+    tracker.addSteps(7000);
+    System.out.println(tracker.getProgress(1));
+    System.out.println(tracker.getProgress(10));
 }
 
 }

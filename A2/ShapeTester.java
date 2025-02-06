@@ -1,4 +1,4 @@
-package HW.A2;
+
 
 public class ShapeTester {
 

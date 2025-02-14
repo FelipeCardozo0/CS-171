@@ -1,3 +1,5 @@
+/* THIS CODE WAS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING CODE WRITTEN BY OTHER STUDENTS OR COPIED FROM ONLINE RESOURCES. Your_Name_Here */
+
 public class ShapeTester {
     // Method to check if the area of the circle is larger than or equal to the area of the rectangle
     public static boolean isLarger(Circle circle, Rectangle rectangle) {
